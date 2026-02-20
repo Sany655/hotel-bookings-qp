@@ -17,9 +17,9 @@ export default function Footer() {
                     <h4 className="font-bold uppercase tracking-widest text-primary mb-6">Quick Links</h4>
                     <ul className="space-y-4">
                         <li><Link href="/rooms" className="hover:text-primary transition-colors">Our Rooms</Link></li>
-                        <li><Link href="/offers" className="hover:text-primary transition-colors">Special Offers</Link></li>
-                        <li><Link href="/dining" className="hover:text-primary transition-colors">Dining</Link></li>
                         <li><Link href="/amenities" className="hover:text-primary transition-colors">Amenities</Link></li>
+                        <li><Link href="/about" className="hover:text-primary transition-colors">Our Story</Link></li>
+                        <li><Link href="/contact" className="hover:text-primary transition-colors">Contact Us</Link></li>
                     </ul>
                 </div>
 
