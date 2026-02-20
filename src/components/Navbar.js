@@ -21,7 +21,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6">
         <Link href="/" className="text-2xl font-serif font-bold tracking-tighter text-primary">
-          LUMIÈRE
+          IEB
         </Link>
 
         <div className="hidden space-x-8 md:flex">

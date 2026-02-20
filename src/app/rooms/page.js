@@ -17,7 +17,7 @@ export default function RoomsPage() {
                             Accommodations
                         </h1>
                         <p className="mt-6 mx-auto max-w-2xl text-muted-foreground text-lg">
-                            From intimate villas to expansive penthouses, each room at Lumière is a masterpiece of design and comfort.
+                            From standard professional rooms to expansive grand suites, each room at IEB is designed for your comfort and productivity.
                         </p>
                     </div>
                 </section>
@@ -28,8 +28,8 @@ export default function RoomsPage() {
                         <div className="flex gap-8 overflow-x-auto pb-2 no-scrollbar w-full md:w-auto">
                             <button className="text-sm font-bold uppercase tracking-widest text-primary border-b-2 border-primary pb-1 whitespace-nowrap">All Rooms</button>
                             <button className="text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-secondary dark:hover:text-white transition-colors whitespace-nowrap">Suites</button>
-                            <button className="text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-secondary dark:hover:text-white transition-colors whitespace-nowrap">Villas</button>
-                            <button className="text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-secondary dark:hover:text-white transition-colors whitespace-nowrap">Penthouses</button>
+                            <button className="text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-secondary dark:hover:text-white transition-colors whitespace-nowrap">Deluxe</button>
+                            <button className="text-sm font-bold uppercase tracking-widest text-muted-foreground hover:text-secondary dark:hover:text-white transition-colors whitespace-nowrap">Standard</button>
                         </div>
                         <div className="flex items-center gap-4 w-full md:w-auto">
                             <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Sort By:</span>

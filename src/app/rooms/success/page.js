@@ -16,10 +16,10 @@ export default function BookingSuccessPage() {
                     </div>
                     <span className="text-primary font-bold uppercase tracking-[0.4em] text-xs">Request Received</span>
                     <h1 className="mt-6 text-4xl md:text-6xl font-serif font-bold tracking-tight text-secondary dark:text-white leading-tight">
-                        See You in Paris
+                        See You in Dhaka
                     </h1>
                     <p className="mt-8 text-muted-foreground text-lg leading-relaxed">
-                        Your reservation request for Lumière Hotel & Spa has been received. Our concierge team will review the details and contact you within the hour to finalize your stay.
+                        Your reservation request for IEB Rest House has been received. Our team will review the details and contact you soon to finalize your stay.
                     </p>
 
                     <div className="mt-16 p-8 border border-border rounded-3xl bg-zinc-50 dark:bg-zinc-900/50 text-left">
@@ -31,11 +31,11 @@ export default function BookingSuccessPage() {
                             </li>
                             <li className="flex gap-3">
                                 <span className="font-bold text-secondary dark:text-white">02.</span>
-                                Our concierge will call to confirm any special requirements.
+                                Our team will call to confirm any special requirements.
                             </li>
                             <li className="flex gap-3">
                                 <span className="font-bold text-secondary dark:text-white">03.</span>
-                                Start dreaming of the City of Light.
+                                We look forward to welcoming you to Dhaka.
                             </li>
                         </ul>
                     </div>

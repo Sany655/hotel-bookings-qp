@@ -6,32 +6,32 @@ import { hotelInfo } from "@/lib/data";
 export default function AmenitiesPage() {
     const detailedAmenities = [
         {
-            title: "Spa & Wellness",
-            subtitle: "A Sanctuary of Stillness",
-            description: "Rejuvenate your body and soul in our state-of-the-art spa. From ancient healing rituals to modern aesthetic treatments, our expert therapists provide a personalized path to wellness.",
-            image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1200",
-            features: ["Traditional Hammam", "Heated Therapy Pool", "Organic Essential Oils", "Signature Massages"]
+            title: "Business Center",
+            subtitle: "Excellence in Work",
+            description: "Stay productive with our state-of-the-art business facilities. High-speed internet, private meeting rooms, and professional support ensure your work never skips a beat.",
+            image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200",
+            features: ["High-speed Wi-Fi", "Private Meeting Rooms", "Printing & Scanning", "Video Conferencing"]
         },
         {
-            title: "Michelin-Starred Dining",
-            subtitle: "Culinary Art on the Seine",
-            description: "Experience the pinnacle of French gastronomy at 'L'Éclat', our signature three-Michelin-star restaurant. Our chefs blend local seasonal ingredients with avant-garde techniques.",
+            title: "Fine Dining",
+            subtitle: "Culinary Excellence in Dhaka",
+            description: "Experience the best of local and international cuisine at our signature restaurant. Our chefs use the freshest local ingredients to create memorable dining experiences.",
             image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1200",
-            features: ["Private Wine Cellar", "Chef's Table Experience", "Rooftop Terrace", "Artisanal Pastries"]
+            features: ["Local Specialties", "International Cuisine", "Rooftop Dining", "Corporate Packages"]
         },
         {
-            title: "The Celestial Pool",
-            subtitle: "Swim Above the City",
-            description: "Our rooftop infinity pool offers breathtaking 360-degree views of the Parisian skyline. Relax on suede cabanas and enjoy curated cocktails as the sun sets over the Eiffel Tower.",
+            title: "The Rooftop View",
+            subtitle: "Dhaka from Above",
+            description: "Our rooftop terrace offers breathtaking views of the Dhaka skyline. Relax and enjoy the city's pulse from a serene vantage point.",
             image: "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&q=80&w=1200",
-            features: ["Infinity Edge", "Climate Controlled", "Sunset Cocktails", "Private Cabanas"]
+            features: ["Panoramic Views", "Evening Refreshments", "Quiet Atmosphere", "Private Events"]
         },
         {
-            title: "24/7 Butler Service",
-            subtitle: "Anticipatory Hospitality",
-            description: "Our elite butler team is dedicated to perfecting every detail of your stay. From bespoke wardrobe management to exclusive city arrangements, no request is too large or too small.",
+            title: "24/7 Security",
+            subtitle: "Your Peace of Mind",
+            description: "We prioritize your safety and security. Our dedicated security team and modern surveillance systems ensure a safe and worry-free stay.",
             image: "https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&q=80&w=1200",
-            features: ["Packing & Unpacking", "Shoe Shine Library", "Bath Ritual Concierge", "Private Dining Setup"]
+            features: ["CCTV Surveillance", "On-site Security", "Secure Parking", "Safe Deposits"]
         }
     ];
 
@@ -43,12 +43,12 @@ export default function AmenitiesPage() {
                 {/* Header */}
                 <section className="px-6 mb-24 text-center">
                     <div className="container mx-auto">
-                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-xs">The Lumière Life</span>
+                        <span className="text-primary font-bold uppercase tracking-[0.4em] text-xs">The IEB Experience</span>
                         <h1 className="mt-6 text-4xl md:text-7xl font-serif font-bold tracking-tight text-secondary dark:text-white leading-tight">
-                            Curated Experiences
+                            Curated Amenities
                         </h1>
                         <p className="mt-8 mx-auto max-w-2xl text-muted-foreground text-lg leading-relaxed">
-                            At Lumière, we don't just provide amenities; we offer a lifestyle of effortless luxury. Explore our collection of world-class facilities designed to delight and inspire.
+                            At IEB Rest House, we provide more than just a stay; we offer a professional and comfortable environment. Explore our range of facilities designed for your convenience and productivity.
                         </p>
                     </div>
                 </section>

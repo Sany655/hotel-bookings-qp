@@ -22,7 +22,7 @@ export default function Home() {
           </div>
 
           <div className="container relative z-10 px-6 text-center text-white">
-            <span className="mb-4 block text-sm font-bold uppercase tracking-[0.4em] text-primary">Paris, France</span>
+            <span className="mb-4 block text-sm font-bold uppercase tracking-[0.4em] text-primary">Dhaka, Bangladesh</span>
             <h1 className="mb-6 text-5xl font-serif font-bold tracking-tight md:text-7xl">
               {hotelInfo.name}
             </h1>
@@ -66,18 +66,18 @@ export default function Home() {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200"
-                alt="Lumière Lobby"
+                alt="IEB Lobby"
                 className="rounded-3xl shadow-2xl relative z-10"
               />
               <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-primary/20 rounded-full blur-3xl -z-0"></div>
             </div>
             <div>
-              <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm italic">Legacy of Excellence</span>
+              <span className="text-primary font-bold uppercase tracking-[0.3em] text-sm italic">Legacy of Engineering</span>
               <h2 className="mt-6 mb-8 text-4xl font-serif font-bold tracking-tight md:text-5xl text-secondary dark:text-white leading-tight">
-                A Beacon of Luxury <br /> Since 1924
+                A Hub of Excellence <br /> and Comfort
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Nestled on the historic Avenue Montaigne, Lumière has been the preferred residence of artists, dreamers, and global icons for over a century. Our architectural heritage seamlessly blends with avant-garde comfort, promising an experience that is as timeless as the City of Light itself.
+                Located in the heart of the capital, the IEB Rest House has been a preferred residence for professionals and travelers seeking quality stay. Our heritage blends with modern hospitality, promising an experience that is both professional and relaxing.
               </p>
               <Link href="/about" className="inline-block px-10 py-4 border border-secondary dark:border-white text-secondary dark:text-white font-bold uppercase tracking-widest hover:bg-secondary hover:text-white dark:hover:bg-white dark:hover:text-secondary transition-all rounded-full">
                 Learn More

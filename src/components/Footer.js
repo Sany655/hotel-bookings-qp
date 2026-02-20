@@ -6,10 +6,10 @@ export default function Footer() {
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="col-span-1 md:col-span-1">
                     <Link href="/" className="text-3xl font-serif font-bold tracking-tighter text-white mb-6 block">
-                        LUMIÈRE<span className="text-primary text-4xl">.</span>
+                        IEB<span className="text-primary text-4xl">.</span>
                     </Link>
                     <p className="text-muted-foreground leading-relaxed max-w-xs">
-                        Experience the pinnacle of luxury and comfort in our meticulously designed rooms and suites.
+                        Experience exceptional hospitality and comfort at the Institute of Engineers Bangladesh Rest House.
                     </p>
                 </div>
 
@@ -19,22 +19,22 @@ export default function Footer() {
                         <li><Link href="/rooms" className="hover:text-primary transition-colors">Our Rooms</Link></li>
                         <li><Link href="/offers" className="hover:text-primary transition-colors">Special Offers</Link></li>
                         <li><Link href="/dining" className="hover:text-primary transition-colors">Dining</Link></li>
-                        <li><Link href="/spa" className="hover:text-primary transition-colors">Wellness & Spa</Link></li>
+                        <li><Link href="/amenities" className="hover:text-primary transition-colors">Amenities</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 className="font-bold uppercase tracking-widest text-primary mb-6">Contact Us</h4>
                     <ul className="space-y-4 text-muted-foreground">
-                        <li>123 Luxury Avenue, Paris, France</li>
-                        <li>contact@lumierehotel.com</li>
-                        <li>+33 1 23 45 67 89</li>
+                        <li>Ramna, Dhaka, Bangladesh</li>
+                        <li>contact@ieb.org.bd</li>
+                        <li>+880 2 1234567</li>
                     </ul>
                 </div>
 
                 <div>
                     <h4 className="font-bold uppercase tracking-widest text-primary mb-6">Newsletter</h4>
-                    <p className="text-muted-foreground mb-4">Subscribe to receive our latest offers.</p>
+                    <p className="text-muted-foreground mb-4">Subscribe to receive our latest updates.</p>
                     <div className="flex gap-2">
                         <input
                             type="email"
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="container mx-auto mt-20 pt-8 border-t border-white/5 text-center text-muted-foreground text-sm">
-                &copy; {new Date().getFullYear()} Lumière Hotel. All rights reserved.
+                &copy; {new Date().getFullYear()} IEB Rest House. All rights reserved.
             </div>
         </footer>
     );

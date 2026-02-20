@@ -75,13 +75,13 @@ export default function ContactPage() {
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                                         <div>
                                             <h3 className="text-xs font-bold uppercase tracking-widest text-primary mb-6">Concierge</h3>
-                                            <p className="text-lg font-medium text-secondary dark:text-white">+33 1 23 45 67 89</p>
-                                            <p className="text-muted-foreground">concierge@lumiere.com</p>
+                                            <p className="text-lg font-medium text-secondary dark:text-white">+880 2 1234567</p>
+                                            <p className="text-muted-foreground">concierge@ieb.org.bd</p>
                                         </div>
                                         <div>
                                             <h3 className="text-xs font-bold uppercase tracking-widest text-primary mb-6">Reservations</h3>
-                                            <p className="text-lg font-medium text-secondary dark:text-white">+33 1 98 76 54 32</p>
-                                            <p className="text-muted-foreground">book@lumiere.com</p>
+                                            <p className="text-lg font-medium text-secondary dark:text-white">+880 2 9876543</p>
+                                            <p className="text-muted-foreground">book@ieb.org.bd</p>
                                         </div>
                                     </div>
 
@@ -89,13 +89,13 @@ export default function ContactPage() {
                                     <div className="aspect-video w-full rounded-[2.5rem] overflow-hidden grayscale relative group">
                                         <img
                                             src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=1200"
-                                            alt="Paris Map"
+                                            alt="Dhaka Map"
                                             className="w-full h-full object-cover border-none"
                                         />
                                         <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors"></div>
                                         <div className="absolute inset-0 flex items-center justify-center">
                                             <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md px-8 py-4 rounded-2xl shadow-2xl">
-                                                <span className="text-sm font-bold uppercase tracking-widest text-secondary dark:text-white">Visit Lumière</span>
+                                                <span className="text-sm font-bold uppercase tracking-widest text-secondary dark:text-white">Visit IEB</span>
                                             </div>
                                         </div>
                                     </div>
@@ -110,15 +110,15 @@ export default function ContactPage() {
                     <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
                         <div>
                             <h4 className="font-bold uppercase tracking-widest text-secondary dark:text-white mb-4">Awards</h4>
-                            <p className="text-muted-foreground text-sm">Forbes Five-Star Hotel 2024<br />Michelin Sustainability Award</p>
+                            <p className="text-muted-foreground text-sm">Best Professional Rest House 2024<br />Excellence in Hospitality</p>
                         </div>
                         <div>
-                            <h4 className="font-bold uppercase tracking-widest text-secondary dark:text-white mb-4">Press</h4>
-                            <p className="text-muted-foreground text-sm italic">"The most refined address in Paris." — Vogue Traveller</p>
+                            <h4 className="font-bold uppercase tracking-widest text-secondary dark:text-white mb-4">Community</h4>
+                            <p className="text-muted-foreground text-sm italic">"The home for engineers in Dhaka." — IEB Monthly</p>
                         </div>
                         <div>
                             <h4 className="font-bold uppercase tracking-widest text-secondary dark:text-white mb-4">Careers</h4>
-                            <p className="text-muted-foreground text-sm">Join the pursuit of excellence.<br />careers@lumiere.com</p>
+                            <p className="text-muted-foreground text-sm">Join our dedicated team.<br />careers@ieb.org.bd</p>
                         </div>
                     </div>
                 </section>
