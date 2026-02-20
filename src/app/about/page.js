@@ -1,7 +1,12 @@
+```
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { hotelInfo } from "@/lib/data";
+
+export const metadata = {
+    title: "Our Story",
+};
 
 export default function AboutPage() {
     return (

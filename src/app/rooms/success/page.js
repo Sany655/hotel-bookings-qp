@@ -2,6 +2,10 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+    title: "Booking Confirmed",
+};
+
 export default function BookingSuccessPage() {
     return (
         <div className="flex min-h-screen flex-col">

@@ -3,6 +3,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { hotelInfo } from "@/lib/data";
 
+export const metadata = {
+    title: "Curated Amenities",
+};
+
 export default function AmenitiesPage() {
     const detailedAmenities = [
         {

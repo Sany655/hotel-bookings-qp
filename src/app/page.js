@@ -3,6 +3,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { hotelInfo, rooms } from "@/lib/data";
 
+export const metadata = {
+  title: "Our Story",
+};
+
 export default function Home() {
   const featuredRooms = rooms.slice(0, 3);
 

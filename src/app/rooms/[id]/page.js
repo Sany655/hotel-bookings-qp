@@ -4,8 +4,20 @@ import Footer from "@/components/Footer";
 import { rooms, hotelInfo } from "@/lib/data";
 import { notFound } from "next/navigation";
 
-export default function RoomDetailPage({ params }) {
-    const { id } = params;
+export async function generateMetadata({ params }) {
+    const { id } = await params;
+    const room = rooms.find((r) => r.id === id);
+
+    if (!room) return { title: "Room Not Found" };
+
+    return {
+        title: room.name,
+        description: room.description,
+    };
+}
+
+export default async function RoomDetailPage({ params }) {
+    const { id } = await params;
     const room = rooms.find((r) => r.id === id);
 
     if (!room) {

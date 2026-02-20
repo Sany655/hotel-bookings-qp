@@ -3,6 +3,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { hotelInfo } from "@/lib/data";
 
+export const metadata = {
+    title: "Contact Us",
+};
+
 export default function ContactPage() {
     return (
         <div className="flex min-h-screen flex-col">

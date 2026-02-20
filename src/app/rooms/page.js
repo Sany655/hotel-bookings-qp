@@ -3,6 +3,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { rooms } from "@/lib/data";
 
+export const metadata = {
+    title: "Accommodations",
+};
+
 export default function RoomsPage() {
     return (
         <div className="flex min-h-screen flex-col">
